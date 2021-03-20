@@ -1,0 +1,39 @@
+#wrapper {
+    height: 100vh;
+    background-color: #F2F3F4;
+}
+
+#wrapper .wrapper-content {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.github-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.github-icon:hover {
+    cursor: pointer;
+}
+
+#wrapper .wrapper-title {
+    font-family: 'Redressed', cursive;
+}
+
+#wrapper #myJob-title {
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+#wrapper #myJobSm {
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: .8em;
+    font-family: 'Raleway', sans-serif;
+}

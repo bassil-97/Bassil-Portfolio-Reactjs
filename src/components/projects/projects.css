@@ -1,0 +1,21 @@
+#my-projects {
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F2F3F4;
+    font-family: 'Raleway', sans-serif;
+}
+
+#my-projects .project-box {
+    padding: 16px;
+    text-align: center;
+    background-color: #F7F9F9;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+}
+

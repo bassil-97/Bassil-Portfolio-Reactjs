@@ -1,0 +1,38 @@
+#my-projects-wrapper {
+    min-height: 100vh;
+    padding: 40px 50px;
+    background: url('../../Assets/unsplash.png') center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B15DCE;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.col-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chips {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    #my-projects-wrapper {
+        padding: 50px 10px;
+    }
+
+    .global-headings {
+        font-size: 30px;
+        text-align: center;
+    }
+
+}

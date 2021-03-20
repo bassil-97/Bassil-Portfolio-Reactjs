@@ -1,0 +1,33 @@
+.contact-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    position: relative;
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Raleway';
+    color: white;
+    background-color: #1B191A;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: #B05DCE;
+}
+
+.message-textarea {
+    background-color: transparent;
+    padding: 10px;
+    color: #686F78;
+    border-color: #100F0F;
+}
